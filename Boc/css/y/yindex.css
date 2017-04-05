@@ -1,0 +1,231 @@
+body {
+  background-color: #eaeaea;
+}
+.d-ab-nav {
+  position: fixed;
+  top: 100px;
+  background-color: #fff;
+  height: 50px;
+  width: 100%;
+  z-index: 2;
+  border-top: 1px solid #ddd;
+  overflow: hidden;
+}
+.d-ab-nav ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.d-ab-nav ul {
+  width: 736px;
+}
+.d-ab-nav ul li {
+  margin-right: 60px;
+  line-height: 47px;
+  padding-top: 4px;
+}
+.d-ab-nav ul li a {
+  display: inline-block;
+  height: 45px;
+  color: #777;
+  font-weight: bold;
+  border-bottom: 3px solid white;
+  transition-duration: 0.8s;
+  transition-timing-function: ease-in;
+  transition-delay: 0s;
+}
+.d-ab-nav ul li a.d-hover {
+  text-decoration: none;
+  border-bottom: 3px solid black;
+}
+.d-ab-nav ul li a:hover {
+  text-decoration: none;
+  border-bottom: 3px solid black;
+}
+@keyframes d-slide {
+  0% {
+    top: -10px;
+  }
+  50% {
+    top: 20px;
+  }
+  100% {
+    top: 50px;
+  }
+}
+.ybanner {
+  margin-bottom: 20px;
+}
+.ybanner img {
+  width: 100%;
+}
+.ybanner .yup {
+  color: #ffffff;
+  position: absolute;
+  bottom: 280px;
+  left: 6%;
+}
+.ybanner h3
+{
+  opacity: 0;
+  margin-top: 45px;
+}
+.ybanner .yhp
+{
+  opacity: 0;
+  margin-top: 45px;
+}
+.ybanner .yhp2
+{
+  opacity: 0;
+}
+.ybanner .yline {
+  display: block;
+  width: 40px;
+  height: 3px;
+  background-color: #ffffff;
+  margin: 50px 0;
+  opacity: 0;
+}
+.yfirst
+{
+  height: 400px;
+  margin-bottom: 20px;
+}
+.yleft
+{
+  width: 50%;
+  background-color: #ffffff;
+  padding-left: 6%;
+  padding-top: 20px;
+  height: 100%;
+}
+p.order
+{
+  font-size: 18px;
+  margin-bottom: 100px;
+}
+.mail
+{
+  margin-right: 50px;
+  width:60px;
+  height: 60px;
+  display:inline-block;
+  background: url("../../image/y/webImg/ico_07.png")no-repeat center;
+  transition:2s;
+  border: 1px solid gray;
+  border-radius: 50%;
+}
+.mail:hover
+{
+  width: 60px;
+  height: 60px;
+  display:inline-block;
+  background: url("../../image/y/webImg/ico_07_h.png")no-repeat center;
+  background-color: black;
+}
+.mess
+{
+  width:60px;
+  height: 60px;
+  display:inline-block;
+  background: url("../../image/y/webImg/ico_17.png")no-repeat center;
+  transition:2s;
+  border: 1px solid gray;
+  border-radius: 50%;
+}
+.mess:hover
+{
+  width: 60px;
+  height: 60px;
+  display:inline-block;
+  background: url("../../image/y/webImg/ico_17_h.png")no-repeat center;
+  background-color: black;
+}
+.product
+{
+  width: 50%;
+  background-color:#f5f5f5;
+  padding-left:6% ;
+  height: 100%;
+}
+.yleft .yline,.product .yline
+{
+  display: block;
+  width: 40px;
+  height: 3px;
+  background-color:black;
+  margin: 50px 0;
+}
+.yst
+{
+  font-size: 20px;
+}
+.ysecond
+{
+  background-color: #2f2f2f;
+  width: 75.8%;
+  margin-top: 20px;
+}
+.ysecond .ysleft
+{
+  width: 40%;
+  padding-left: 6%;
+  padding-top: 25px;
+}
+.ysecond .ysleft
+{
+  color: #9a9a9a;
+}
+.ysecond .ysleft .yline
+{
+  background-color: #9a9a9a;
+  display: block;
+  width: 20px;
+  height: 3px;
+  margin: 20px 0;
+}
+.yarrow
+ {
+   width: 60px;
+   height: 60px;
+   background: url("../../image/y/webImg/ico_08.png")no-repeat center;
+   border: 1px solid white;
+   border-radius: 50%;
+   margin-top: 50px;
+  transition: 2s;
+ }
+.yarrow:hover
+{
+  width: 60px;
+  height: 60px;
+  background: url("../../image/y/webImg/ico_08_h.png")no-repeat center;
+  background-color: white;
+  border: 1px solid #2f2f2f;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+.yact
+{
+  margin-bottom: 20px;
+}
+.ysecond .ysright
+{
+  width: 60%;
+}
+.y3
+{
+  background-color: #2f2f2f;
+  width: 75.8%;
+  margin-top: 20px
+}
+.y3left
+{
+  width: 60%;
+  margin-left: -15px;
+}
+.y3right
+{
+  width: 40%;
+  color: #9a9a9a;;
+}

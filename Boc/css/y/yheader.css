@@ -1,0 +1,23 @@
+body {
+  background-color: #eaeaea;
+}
+body header {
+  height: 100px;
+  width: 100%;
+  line-height: 100px;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0px;
+  z-index: 999;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+body header li {
+  margin-right: 30px;
+}
+.right a {
+  color: #333333;
+}
+.right a:hover {
+  color: #888888;
+}

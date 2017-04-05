@@ -1,0 +1,231 @@
+.d-ab-nav {
+    position: fixed;
+    top: 100px;
+    background-color: #fff;
+    height: 50px;
+    width: 100%;
+    z-index: 2;
+    border-top: 1px solid #ddd;
+    overflow: hidden;
+}
+.d-ab-nav ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.d-ab-nav ul {
+    width: 736px;
+}
+.d-ab-nav ul li {
+    margin-right: 60px;
+    line-height: 47px;
+    padding-top: 4px;
+}
+.d-ab-nav ul li a {
+    display: inline-block;
+    height: 45px;
+    color: #777;
+    font-weight: bold;
+    border-bottom: 3px solid white;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+}
+.d-ab-nav ul li a.d-hover {
+    text-decoration: none;
+    border-bottom: 3px solid black;
+}
+.d-ab-nav ul li a:hover {
+    text-decoration: none;
+    border-bottom: 3px solid black;
+}
+@keyframes d-slide {
+    0% {
+        top: -10px;
+    }
+    50% {
+        top: 20px;
+    }
+    100% {
+        top: 50px;
+    }
+}
+.R-div{
+    width:100%;
+    height:528px;
+}
+.R-div2{
+    color:white;
+    margin-left: 15%;
+}
+.R-div2 a{
+    display:block;
+    border: 1px solid white;
+    border-radius:50%;
+    width:43px;
+    height:43px;
+    text-align: center;
+    line-height:43px;
+    overflow:hidden;
+    position:relative;
+    color:white;
+
+    margin-top:20px;
+    opacity: 0;
+}
+.R-div2  span{
+    animation: mymove 1.5s ease-out infinite;
+    position: relative;
+}
+@keyframes mymove {
+    from {
+        top: -25px;
+    }
+    to {
+        top: 25px;
+    }
+}
+.R-h3{
+    font-size:50px;
+    margin:0;
+    /*padding-top:25px;*/
+    padding-top:45px;
+    opacity: 0;
+}
+.R-p{
+    border: 2px solid white;
+    width:30px;
+    /*margin-top:25px;*/
+    margin-top:45px;
+    opacity: 0;
+}
+.R-p2{
+    font-size: 35px;
+    margin-bottom:150px;
+
+    margin-top:20px;
+    opacity: 0;
+}
+
+
+.R-sdiv{
+    width:89%;
+    background:white;
+    margin:0 auto;
+}
+.R-stitle{
+    padding:50px 0 20px 35px;
+    font-size:26px;
+    color:#333;
+}
+.R-slist{
+    padding:0 0 30px 35px;
+}
+.R-slist a{
+    color: #333;
+    margin-left:20px;
+    padding:0 5px;
+    text-decoration: none;
+    border-bottom: 2px solid #333;
+
+}
+
+
+
+/*==================一个小方块========================*/
+.R-hlist{
+    margin:0;
+    padding:0 0 0 2%;
+    overflow: hidden;
+}
+.R-hlist li{
+    list-style-type: none;
+    width:30.5%;
+    float:left;
+    margin:1%;
+}
+.R-hpic{
+    width:100%;
+}
+.R-h{
+    position: relative;
+    overflow: hidden;
+}
+.R-hmeng{
+    position: absolute;
+    top:0;
+    left:0;
+    background:black;
+    opacity:0;
+    width:100%;
+    height:100%;
+}
+.R-hpic{
+    transition:1s;
+}
+.R-hlist li:hover .R-hpic{
+    transform: scale(1.05,1.05);
+}
+.R-hmeng{
+    transition: 1s;
+}
+.R-hlist li:hover .R-hmeng{
+    opacity: 0.4;
+}
+.R-h2ma img{
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:30%;
+    height:40%;
+    margin-top:-10%;
+    margin-left:-15%;
+    opacity: 0;
+}
+.R-h2ma img{
+    transition:1s;
+}
+.R-hlist li:hover .R-h2ma img{
+    opacity:1;
+    transform: scale(1.05,1.05);
+}
+
+/*===================方块下的字========================*/
+.R-hzi{
+    padding-left:6%;
+    margin-top:10px;
+}
+.R-ht{
+    font-size:18px;
+    color:#333;
+    line-height:28px;
+}
+.R-hc{
+    font-size:12px;
+    color: #777;
+    line-height:24px;
+}
+.R-hzi a{
+    color:#777;
+    font-size:14px;
+    text-decoration: none;
+}
+.R-hzi a:hover{
+    text-decoration: none;
+}
+.R-hfa{
+    float:right;
+    padding-right:6%;
+}
+.R-hlist2{
+    display:none;
+}
+.R-hbutton{
+    width:180px;
+    height:60px;
+    background: #ddd;
+    font-size:24px;
+    margin:60px auto;
+    line-height:60px;
+    cursor: pointer;
+}

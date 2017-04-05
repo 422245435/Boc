@@ -1,0 +1,30 @@
+.yins-nav {
+  position: fixed;
+  left: 0;
+  top: 100px;
+  z-index: 10;
+  height: 50px;
+  width: 100%;
+  border-bottom: 1px solid #dddddd;
+  border-top: 1px  solid #dddddd;
+}
+.ynav {
+  width: 89%;
+  margin: 0 auto;
+}
+.ynav ul {
+  width: 470px;
+}
+.ynav ul li {
+  margin-right: 60px;
+  font-size: 14px;
+  line-height: 47px;
+  padding-top: 2px;
+  position: relative;
+}
+.ynav ul li a {
+  color: #777777;
+}
+.ynav ul li:hover a {
+  color: #333333;
+}

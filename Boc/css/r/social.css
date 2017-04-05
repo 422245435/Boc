@@ -1,0 +1,345 @@
+.d-ab-nav {
+    position: fixed;
+    top: 100px;
+    background-color: #fff;
+    height: 50px;
+    width: 100%;
+    z-index: 2;
+    border-top: 1px solid #ddd;
+    overflow: hidden;
+}
+.d-ab-nav ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.d-ab-nav ul {
+    width: 736px;
+}
+.d-ab-nav ul li {
+    margin-right: 60px;
+    line-height: 47px;
+    padding-top: 4px;
+}
+.d-ab-nav ul li a {
+    display: inline-block;
+    height: 45px;
+    color: #777;
+    font-weight: bold;
+    border-bottom: 3px solid white;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+}
+.d-ab-nav ul li a.d-hover {
+    text-decoration: none;
+    border-bottom: 3px solid black;
+}
+.d-ab-nav ul li a:hover {
+    text-decoration: none;
+    border-bottom: 3px solid black;
+}
+@keyframes d-slide {
+    0% {
+        top: -10px;
+    }
+    50% {
+        top: 20px;
+    }
+    100% {
+        top: 50px;
+    }
+}
+.R-div{
+    width:100%;
+    height:528px;
+}
+.R-div2{
+    color:white;
+    margin-left: 15%;
+}
+.R-div2 a{
+    display:block;
+    border: 1px solid white;
+    border-radius:50%;
+    width:43px;
+    height:43px;
+    text-align: center;
+    line-height:43px;
+    overflow:hidden;
+    position:relative;
+    color:white;
+
+    margin-top:20px;
+    opacity: 0;
+}
+.R-div2  span{
+    animation: mymove 1.5s ease-out infinite;
+    position: relative;
+}
+@keyframes mymove {
+    from {
+        top: -25px;
+    }
+    to {
+        top: 25px;
+    }
+}
+.R-h3{
+    font-size:50px;
+    margin:0;
+    /*padding-top:25px;*/
+    padding-top:45px;
+    opacity: 0;
+}
+.R-p{
+    border: 2px solid white;
+    width:30px;
+    /*margin-top:25px;*/
+    margin-top:45px;
+    opacity: 0;
+}
+.R-p2{
+    font-size: 35px;
+    margin-bottom:150px;
+
+    margin-top:20px;
+    opacity: 0;
+}
+
+
+.R-sdiv{
+    width:89%;
+    background:white;
+    margin:0 auto;
+}
+.R-stitle{
+    padding:50px 0 20px 35px;
+    font-size:26px;
+    color:#333;
+}
+.R-slist{
+    padding:0 0 30px 35px;
+}
+.R-slist a{
+    color:black;
+    margin-left:20px;
+    padding:0 5px;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+}
+.R-sdiv ul{
+    list-style:none;
+    overflow: hidden;
+    padding:0;
+    margin:0;
+}
+.R-sdiv li{
+    /*float:left;
+    margin:0;
+    padding:0;
+    font-size:0;*/
+    width: 100%;
+    background:#2f2f2f;
+    margin-bottom: 30px;
+}
+
+
+
+/*===============图片左===================*/
+.R-spic{
+    vertical-align: bottom;
+    display:inline-block;
+    width:65%;
+    overflow:hidden;
+    position: relative;
+}
+.R-spic img{
+    transition:1s;
+}
+.R-spic img:hover{
+    transform: scale(1.07,1.07);
+}
+.R-shover{
+    opacity:0;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-top:-30px;
+    margin-left:-50px;
+    width:100px;
+    height:60px;
+    z-index:1;
+}
+.R-shover hr{
+    width:100px;
+    margin:0;
+}
+.R-shover p{
+    margin:0;
+    vertical-align: middle;
+    text-align:center;
+    color:white;
+}
+.R-shover hr{
+    transition:1.5s;
+}
+.R-spic:hover .R-shover{
+    opacity:1;
+}
+.R-spic:hover .R-shover hr{
+    transform: scale(0.1,1);
+}
+
+/*===============字右===================*/
+.R-szi {
+    float: right;
+    display: inline-block;
+    width:30%;
+    color:white;
+    margin-right:2.5%;
+    padding-top:50px;
+}
+.R-sp1{
+    font-size:24px;
+    font-weight: bold;
+}
+.R-sp2{
+    border: 1px solid white;
+    width:15px;
+    margin-top:18px;
+}
+.R-sp3{
+    font-size: 18px;
+    line-height:36px;
+    text-decoration: none;
+    color:#e7e7e7;
+}
+.R-sp3:hover{
+    text-decoration: none;
+    color:#ffffff;
+}
+.R-sp3:link{
+    text-decoration: none;
+    color:#ffffff;
+}
+.R-sp4{
+    color:#bbbbbb;
+    font-size:13px;
+    display: block;
+    line-height:24px;
+    margin-top:10px;
+}
+.R-szi span{
+    border: 1px solid white;
+    border-radius:50%;
+    width:40px;
+    height:40px;
+    text-align: center;
+    line-height:40px;
+    margin-top:45px;
+}
+.R-szi span:hover{
+    background:white;
+    color:#333;
+}
+/*===============图片右===================*/
+.R-spic2{
+    vertical-align: bottom;
+    display:inline-block;
+    width:65%;
+    overflow:hidden;
+    position: relative;
+}
+.R-spic2 img{
+    transition:1s;
+}
+.R-spic2 img:hover{
+    transform: scale(1.07,1.07);
+}
+.R-shover2{
+    opacity:0;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-top:-30px;
+    margin-left:-50px;
+    width:100px;
+    height:60px;
+    z-index:1;
+}
+.R-shover2 hr{
+    width:100px;
+    margin:0;
+}
+.R-shover2 p{
+    margin:0;
+    vertical-align: middle;
+    text-align:center;
+    color:white;
+}
+.R-shover2 hr{
+    transition:1.5s;
+}
+.R-spic2:hover .R-shover2{
+    opacity:1;
+}
+.R-spic2:hover .R-shover2 hr{
+    transform: scale(0.1,1);
+}
+
+
+
+/*===============字左===================*/
+.R-szi2 {
+    float:left;
+    display: inline-block;
+    width:30%;
+    color:white;
+    margin-left:2.5%;
+    margin-right:2.5%;
+    padding-top:50px;
+}
+.R-sp12{
+    font-size:24px;
+    font-weight: bold;
+}
+.R-sp22{
+    border: 1px solid white;
+    width:15px;
+    margin-top:18px;
+}
+.R-sp32{
+    font-size: 18px;
+    line-height:36px;
+    text-decoration: none;
+    color:#e7e7e7;
+}
+.R-sp32:hover{
+    text-decoration: none;
+    color:#ffffff;
+}
+.R-sp32:link{
+    text-decoration: none;
+    color:#ffffff;
+}
+.R-sp42{
+    color:#bbbbbb;
+    font-size:13px;
+    display: block;
+    line-height:24px;
+    margin-top:10px;
+}
+.R-szi2 span{
+    border: 1px solid white;
+    border-radius:50%;
+    width:40px;
+    height:40px;
+    text-align: center;
+    line-height:40px;
+    margin-top:45px;
+}
+.R-szi2 span:hover{
+    background:white;
+    color:#333;
+}

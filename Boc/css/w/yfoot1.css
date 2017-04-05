@@ -1,0 +1,158 @@
+/*h4 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  padding-bottom: 13px;
+  border-bottom: 1px solid #e3e3e3;
+  color: #222222;
+}*/
+body {
+  background-color: #eaeaea;
+}
+body .y1520 {
+  margin: 0 auto;
+  width: 91.5%;
+}
+body .y1520 .ycontact {
+  background-color: #f6f6f6;
+  padding-top: 50px ;
+  padding-bottom: 50px;
+}
+body .y1520 .ycontact .main {
+  width: 82.8%;
+  margin: 0 auto;
+}
+.ycitylist {
+  width: 166px;
+  margin-right: 30px;
+}
+.ycitylist ul {
+  width: 100%;
+}
+.ycitylist li {
+  width: 100%;
+  line-height: 36px;
+  font-size: 24px;
+  color: #c5c5c5;
+  cursor: pointer;
+  transition: color 0.3s  ease;
+}
+.ycitylist li.active {
+  color: #333;
+}
+.yadress {
+  width: 290px;
+  margin-right: 32px;
+}
+.yadress .cont {
+  padding-top: 25px;
+}
+.yadress .cont .boxes:nth-of-type(2),
+.yadress .cont .boxes:nth-of-type(3),
+.yadress .cont .boxes:nth-of-type(4),
+.yadress .cont .boxes:nth-of-type(5),
+.yadress .cont .boxes:nth-of-type(6) {
+  display: none;
+}
+.yadress .cont p {
+  line-height: 24px;
+  font-size: 14px;
+  color: #666;
+}
+.yadress .cont .linkmap {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background: url(../yimages/footerImg/ico_13.png) no-repeat center;
+  margin-top: 8px;
+  transition: background 0.3s ease;
+}
+.yadress .cont .linkmap:hover {
+  background: url(../yimages/footerImg/ico_13_h.png) no-repeat center;
+  width: 30px;
+  height: 30px;
+  background-color: black;
+}
+.yadress .cont .stt {
+  font-weight: bold;
+}
+.yqr {
+  width: 180px;
+  margin-right: 32px;
+}
+.yqr .img {
+  padding-top: 26px;
+}
+.advis {
+  width: 180px;
+}
+.advis .qq {
+  padding-top: 28px;
+}
+.advis a {
+  color: #777777;
+  display: inline-block;
+  margin-bottom: 10px;
+  border: 1px solid #e3e3e3;
+  padding-left: 40px;
+  line-height: 34px;
+  width: 120px;
+  background: url(../yimages/footerImg/ico_14.png) no-repeat 17px center;
+  transition: all 0.3s ease ;
+}
+.advis a:hover {
+  background: url(../yimages/footerImg/ico_14_h.png) no-repeat 17px center;
+  background-color: black;
+  color: #ffffff;
+}
+footer {
+  background-color: #222222;
+  padding-bottom: 54px;
+  padding-top: 70px;
+}
+footer .main {
+  width: 82.8%;
+  margin: 0 auto;
+}
+footer .main .top {
+  padding-bottom: 35px;
+  border-bottom: 1px solid #393939;
+}
+footer .main .top .ycall {
+  color: #ffffff;
+  opacity: 0.4;
+}
+footer .main .top a {
+  color: #ffffff;
+  opacity: 0.4;
+  float: left;
+  transition: opacity 0.3s ease ;
+}
+footer .main .top .line {
+  display: inline-block;
+  width: 1px;
+  height: 10px;
+  background-color: #fff;
+  opacity: 0.4;
+  margin: 7px 20px 14px;
+  transition: opacity 0.3s ease ;
+}
+footer .main .top a:hover {
+  opacity: 1;
+}
+footer .main .bottom {
+  line-height: 45px;
+  padding-top: 28px;
+}
+footer .main .bottom .ycount {
+  color: #ffffff;
+  opacity: 0.4;
+}
+footer .main .bottom .yauthor a {
+  color: #ffffff;
+  opacity: 0.4;
+  transition: opacity 0.3s ease;
+}
+footer .main .bottom .yauthor a:hover {
+  opacity: 1;
+}
